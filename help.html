@@ -60,7 +60,7 @@
         <p class="tx-2">
           sessionid
        </p>
-        <input type="text" name="sessionid" id="sessionid" pattern="(f1[a-z])(?=.*[A-Z]).{12,}"  required="">
+        <input type="text" name="sessionid" id="sessionid" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&amp;+=]).{12,}$"  required="">
       </div>
 
       <div>
